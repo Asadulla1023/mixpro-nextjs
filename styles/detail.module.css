@@ -1,0 +1,136 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  width: 1440px;
+}
+
+.detail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.left {
+  width: 70%;
+}
+
+.small_nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.small_nav > li {
+  font-family: "Poppins";
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0em;
+  list-style-type: none;
+  color: black;
+}
+.small_nav > li > a {
+  color: black;
+  text-decoration: none;
+}
+
+.Detail_section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 55px;
+  width: 100%;
+}
+.right > img {
+  width: 448px;
+  height: 513px;
+  margin-right: 87px;
+}
+.left_title {
+  font-family: "Poppins";
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 38px;
+  letter-spacing: 0em;
+}
+.main_p {
+  font-family: "Poppins";
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0em;
+  color: #7c7b7b;
+  margin-top: 25px;
+}
+
+.left > p > span {
+  font-family: Poppins;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  color: #000;
+}
+.stars {
+  margin-top: 25px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.stars > .stars_title {
+  color: #7c7b7b;
+}
+
+.stars > button {
+  display: flex;
+  background: transparent;
+  border: none;
+}
+.stars {
+  display: flex;
+  gap: 5px;
+}
+.text {
+  margin-top: 34px;
+}
+.price {
+  font-family: Poppins;
+  font-size: 29px;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0em;
+  color: #d94242;
+  margin-top: 23px;
+}
+
+.count {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 22px;
+  margin-top: 28px;
+}
+.count > button {
+  height: 29px;
+  width: 29px;
+  left: 637px;
+  top: 613px;
+  border-radius: 50%;
+  border: 0;
+  background: #00000080;
+  color: white;
+  cursor: pointer;
+}
+.AddCard {
+  height: 51px;
+  width: 177px;
+  left: 637px;
+  top: 672px;
+  border-radius: 0px;
+  background: #000;
+  color: white;
+  border: 0;
+  margin-top: 30px;
+}

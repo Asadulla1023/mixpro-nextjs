@@ -1,0 +1,57 @@
+.bannerItem {
+    display: flex;
+    justify-content: space-between;
+    height: fit-content !important;
+}
+
+
+.cartItem {
+    width: 100% !important;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cartItemLeft {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.cartItemLeft * {
+    width: fit-content;
+}
+
+.cartItemLeft > h2 {
+    font-size: 59px;
+    font-weight: 900;
+    line-height: 88.5px;
+}
+
+.cartItemLeft > p {
+    margin-top: 2rem;
+    font-size: 15px;
+    line-height: 22.5px;
+    font-weight: 400;
+    width: 38.125rem;
+    margin-bottom: 2rem;
+}
+
+.cartItemLeft > button {
+    padding: 15px 30px;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+    background: #0a0a0a;
+    color: #fff;
+    border: none;
+}
+
+.controller {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
